@@ -5,11 +5,7 @@
 | Документ | Что в нём |
 |---|---|
 | [`USER_GUIDE.md`](USER_GUIDE.md) | **Руководство пользователя:** инструменты, клавиши, слои, эффекты, 3D, звук, рендер, Roto Brush, трекер |
-| [`CURRENT_STATE.md`](CURRENT_STATE.md) | Что работает, что частично, чего нет, известные баги |
-| [`TODO.md`](TODO.md) | Приоритеты и планы |
-| [`TECHNICAL_DOCUMENTATION.md`](TECHNICAL_DOCUMENTATION.md) | Архитектура, форматы, рендер, свет, монтаж, тесты, нюансы |
-| [`BUGS.md`](BUGS.md) | Таблица багов со статусами |
-| [`ARCHITECTURE.md`](ARCHITECTURE.md), [`FILE_MAP.md`](FILE_MAP.md), [`DECISIONS.md`](DECISIONS.md) | Краткие обзоры архитектуры, файлов и решений |
+| [`ARCHITECTURE.md`](ARCHITECTURE.md), [`FILE_MAP.md`](FILE_MAP.md) | Краткие обзоры архитектуры и файлов |
 
 Тесты: `tests/run_all.sh` (offscreen Qt, оба языка, около 50 минут).
 

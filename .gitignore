@@ -11,12 +11,3 @@ tests/out_*.mp4
 .env
 .env.*
 *.log
-# внутренние рабочие заметки (не для публикации)
-CLAUDE.md
-project-docs/HANDOFF.md
-project-docs/SESSION_HANDOFF.md
-project-docs/DEVELOPMENT_LOG.md
-project-docs/COMPLETED_TASKS.md
-project-docs/TEST_REPORT.md
-project-docs/PROJECT_OVERVIEW.md
-tests/.run_tmp*
