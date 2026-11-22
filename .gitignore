@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.venv*/
+.ruff_cache/
+models/
+*.pt
+ae-course/
+tests/out_*.mp4
+*.skl
+.env
+.env.*
+*.log
+# внутренние рабочие заметки (не для публикации)
+CLAUDE.md
+project-docs/HANDOFF.md
+project-docs/SESSION_HANDOFF.md
+project-docs/DEVELOPMENT_LOG.md
+project-docs/COMPLETED_TASKS.md
+project-docs/TEST_REPORT.md
+project-docs/PROJECT_OVERVIEW.md
