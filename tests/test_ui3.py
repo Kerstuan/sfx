@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 import os, sys, time, tempfile
 os.environ["QT_QPA_PLATFORM"] = "offscreen"; os.environ["XDG_CONFIG_HOME"] = tempfile.mkdtemp()
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

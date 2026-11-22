@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Правая колонка как в AE: Предпросмотр, Выравнивание, Звук, Эффекты и шаблоны."""
 from __future__ import annotations
 

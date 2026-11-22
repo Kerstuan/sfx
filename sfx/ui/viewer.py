@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Панель «Композиция»: превью кадра и инструменты как в AE.
 
 V — выделение (и правка вершин масок/контуров), H — рука, Z — лупа, W — поворот, Y — опорная точка,

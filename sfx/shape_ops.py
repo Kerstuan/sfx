@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Операторы шейп-слоя, как в Contents у After Effects.
 
 Каждая фигура (sh) — это группа: путь + свои операторы + заливка/обводка + своя трансформация.

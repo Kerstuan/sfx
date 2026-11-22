@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Гизмо 3D-перемещения во вьювере (оси X/Y/Z, как в AE): мышью тянем стрелку — меняется только эта
 координата Position; работает у 3D-слоя, света и камеры; нет у 2D-слоя; отмена; ключ при включённом секундомере."""
 import os, sys, tempfile, math

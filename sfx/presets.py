@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Шаблоны анимаций (как Animation Presets в AE): ставят ключи/эффекты от текущего кадра."""
 from __future__ import annotations
 

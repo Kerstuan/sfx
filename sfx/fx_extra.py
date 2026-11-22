@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Эффекты времени (Posterize Time, Echo) и стилизации (Deep Glow-подобное свечение, Motion Tile).
 
 Эффекты времени не пиксельные: render._composited рисует слой в другие моменты (time_sources) и смешивает.

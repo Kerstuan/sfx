@@ -14,7 +14,7 @@
   <img alt="Qt" src="https://img.shields.io/badge/Qt-PySide6-41CD52?logo=qt&logoColor=white">
   <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-export-007808?logo=ffmpeg&logoColor=white">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black">
-  <img alt="License" src="https://img.shields.io/badge/license-All%20rights%20reserved-red">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
 ---
@@ -145,17 +145,24 @@ tests/run_all.sh
 Тесты работают без окна (offscreen Qt), проверяют интерфейс на обоих языках и делают настоящие рендеры через FFmpeg.
 Части тестов нужны локальные видеофайлы, пути к ним указаны в начале `tests/run_all.sh`.
 
-## Автор
+## Участие в разработке
 
-**Kerstuan** — автор и разработчик SFX.
+Проект открыт для сообщества: делайте Fork, исправляйте баги, добавляйте функции и присылайте Pull Request.
+Перед отправкой прогоните тесты (`tests/run_all.sh`).
+
+## Credits
+
+- **Kerstuan** — первоначальный автор и разработчик SFX.
+- Изменения в форках и производных версиях принадлежат их авторам, но Fork не делает человека
+  первоначальным автором проекта: оригинальное авторство Kerstuan сохраняется.
+- Сторонние библиотеки (Qt/PySide6, PyAV, NumPy, FFmpeg, PyTorch, SAM 2.1, OpenCV, SciPy) принадлежат своим авторам
+  и распространяются по своим лицензиям. В репозиторий они не входят и ставятся отдельно.
+- After Effects и Sapphire — товарные знаки их правообладателей; SFX с ними не связан.
 
 ## Лицензия
 
-**Copyright © 2026 Kerstuan. All rights reserved.**
+Распространяется по лицензии **[MIT](LICENSE)**. Copyright (c) 2026 Kerstuan.
 
-Это **не** open-source проект. Код опубликован только для просмотра. Копирование, изменение, распространение,
-перепродажа и повторная публикация без письменного разрешения автора запрещены. Подробности — в файле [LICENSE](LICENSE).
-
-Сторонние библиотеки (Qt/PySide6, PyAV, NumPy, FFmpeg, PyTorch, SAM 2.1, OpenCV, SciPy) принадлежат своим авторам
-и распространяются по своим лицензиям. В репозиторий они не входят и ставятся отдельно.
-After Effects и Sapphire — товарные знаки их правообладателей; SFX с ними не связан.
+Код можно свободно использовать, изменять, распространять и применять в том числе в коммерческих проектах.
+Единственное условие: **во всех копиях и существенных частях кода нужно сохранять уведомление
+`Copyright (c) 2026 Kerstuan` и текст лицензии MIT.** Удалять оригинальный копирайт из распространяемых копий нельзя.

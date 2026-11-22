@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Плагины SFX.
 
 Плагин — файл <имя>.py (или папка с __init__.py) в ~/.config/sfx/plugins/. В нём:

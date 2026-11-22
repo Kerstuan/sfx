@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Движок Roto Brush для SFX — отдельный процесс в окружении ~/sfx/.venv-roto (PyTorch + SAM 2.1).
 
 Не импортирует Qt и остальной SFX: общается с программой строками JSON через stdin/stdout.

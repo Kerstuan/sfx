@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 # Запуск SFX. При первом запуске сам создаёт окружение и ставит зависимости.
 cd "$(dirname "$(readlink -f "$0")")"
 if [ ! -x .venv/bin/python ]; then

@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Звук: декодирование слоёв с аудиоэффектами (ffmpeg), сведение с «Уровнями звука», волна, проигрывание.
 
 Звук каждого слоя декодируется целиком один раз (с цепочкой его аудиоэффектов) и кэшируется.

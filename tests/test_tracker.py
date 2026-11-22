@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Сквозной тест 3D-трекера: окно → процесс OpenCV/SciPy → камера/нули/текст в SFX → JSX для AE.
 Видео с известной камерой делает tests/make_synth_track.py. Нужен .venv-track."""
 import os, sys, time, subprocess, json, math

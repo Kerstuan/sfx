@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Переходы на стыке двух клипов — в духе Sapphire Transitions / переходов Premiere.
 
 Переход — эффект категории «transition» на входящем (верхнем) слое B. Окно перехода стоит у точки входа B

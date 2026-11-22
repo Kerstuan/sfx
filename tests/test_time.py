@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Время: Freeze Frame (с удержанием / до конца / последний кадр), Time Remap, Posterize Time, Echo;
 Deep Glow и Motion Tile; сохранение/загрузка, отмена, экспорт через ffmpeg."""
 import os, sys, json, subprocess

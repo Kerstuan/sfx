@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Выражения на JavaScript, как в After Effects.
 
 Движок — QJSEngine (по одному на поток: превью и рендер считаются независимо).

@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Состояние редактора: проект, текущее время, выделение, undo/redo и все операции над слоями."""
 from __future__ import annotations
 

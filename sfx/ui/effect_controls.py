@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Панель «Элементы управления эффектами» (Effect Controls) как в AE: эффекты выделенного слоя,
 сворачиваемые группы параметров, «Сброс», секундомеры, протягиваемые значения, списки и флажки."""
 from __future__ import annotations

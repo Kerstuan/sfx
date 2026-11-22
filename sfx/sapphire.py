@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Эффекты в духе Sapphire (вторая партия, по видео «I Tested EVERY Sapphire Effect… PART 2»).
 
 Код свой: повторяем поведение и набор параметров по тому, что видно в Effect Controls на видео,

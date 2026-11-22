@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """3D-виды вьювера (как 3D View в AE): Active Camera / Front / Left / Top / Back / Right / Bottom / Custom.
 Ортогональность (размер не зависит от z), ребро слоя в Top/Left, экспорт всегда через активную камеру,
 вложенный прекомп не наследует вид, облёт Custom, значок и гизмо камеры, перемещение мышью по осям вида,

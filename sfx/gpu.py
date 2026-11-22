@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Эффекты на видеокарте через OpenGL (Qt, без дополнительных библиотек).
 
 Сейчас на GPU — гауссово размытие любого радиуса (два прохода шейдера), на нём держатся

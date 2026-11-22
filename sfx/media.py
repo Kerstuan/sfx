@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Чтение медиа: пробинг файлов, декодирование кадров видео с кэшем."""
 from __future__ import annotations
 

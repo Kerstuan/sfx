@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Контуры масок и фигур шейп-слоёв.
 
 Контур хранится в свойстве как плоский список чисел: на каждую вершину 6 значений

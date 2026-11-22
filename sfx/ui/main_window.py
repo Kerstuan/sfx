@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Главное окно: раскладка панелей как в AE, меню и все горячие клавиши."""
 from __future__ import annotations
 

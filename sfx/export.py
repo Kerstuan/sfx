@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Рендер композиции через ffmpeg: формат, кодек, fps, качество, размер, альфа, звук слоёв."""
 from __future__ import annotations
 

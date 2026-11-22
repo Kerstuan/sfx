@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Дополнительные 3D-виды рядом с главным вьювером (раскладки «2 вида» / «4 вида», как Select View Layout в AE).
 
 Каждый боковой вид держит СВОЙ вид, масштаб и сдвиг (не в проекте): при рендере они подставляются в композицию

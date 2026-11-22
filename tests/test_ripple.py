@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Lift / Extract Work Area (как в AE) и Ripple Delete: деление слоёв, сдвиг, ключи едут со слоем,
 картинка после стыка = картинка до правки, блокированные слои не трогаются, отмена, меню, сохранение."""
 import os, sys, tempfile

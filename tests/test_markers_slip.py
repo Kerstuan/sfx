@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Маркеры композиции (*, перетаскивание, Ctrl+клик — удалить, двойной клик — имя, J/K, прилипание, сохранение,
 отмена, смена fps) и slip-монтаж (тянуть тень исходника: клип на месте, видео внутри сдвигается)."""
 import os, sys, json, tempfile

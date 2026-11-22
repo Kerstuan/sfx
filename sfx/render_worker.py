@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Процесс-рендерер: считает кадры превью отдельно от окна (запуск: python -m sfx.render_worker).
 
 Протокол по stdin/stdout, сообщения с 4-байтной длиной впереди:

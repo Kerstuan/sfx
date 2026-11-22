@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Движок 3D-трекера камеры SFX — отдельный процесс в окружении ~/sfx/.venv-track (OpenCV + SciPy).
 
 Свой конвейер Structure-from-Motion для видео (встроенный Camera Tracker Adobe не используется):

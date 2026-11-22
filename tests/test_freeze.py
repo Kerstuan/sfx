@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Freeze Frame как в AE (Layer → Time): удержание N кадров и продолжение с того же кадра, сдвиг следующих клипов
 (ripple), звук молчит на паузе и после неё идёт синхронно с картинкой, диалог Shift+Alt+F, отмена, сохранение."""
 import os, sys, json, tempfile

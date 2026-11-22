@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Прокси для превью, как Proxy в AE и Premiere.
 
 Тяжёлое видео (CS2-записи 1080p60 на 40 Мбит/с, ключевой кадр раз в 2 с) медленно мотать:

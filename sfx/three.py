@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """3D-слои и камера.
 
 Координаты как в AE: x вправо, y вниз, z — от зрителя вглубь. Камера по умолчанию стоит в (w/2, h/2, -zoom)

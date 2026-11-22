@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 # Все offscreen-тесты в обоих языках. Нужны записи ~/Videos/Replay_2026-10-31_00-14-28.mp4 и ~/Downloads/ssstik*.mp3.
 cd "$(dirname "$(readlink -f "$0")")/.."
 mkdir -p /tmp/sfx-tests

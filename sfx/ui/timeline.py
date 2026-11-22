@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Панель «Таймлайн» в стиле AE: слои, свойства, ключи, линейка, граф-эдитор (Shift+F3)."""
 from __future__ import annotations
 

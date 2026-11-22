@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Панель Roto Brush (Alt+W): выделение объекта кистью и слежение по видео движком SAM 2.1.
 
 Модель работает в отдельном процессе (.venv-roto, roto_worker.py) — окно не подвисает,

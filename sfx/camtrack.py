@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """3D-трекер камеры: решение (от track_worker.py) → сцена SFX и скрипт для After Effects.
 
 Оси решения, SFX и After Effects совпадают: x вправо, y вниз, z вперёд (от камеры в сцену).

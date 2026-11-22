@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 # Установка движка «3D Camera Tracker» для SFX: OpenCV (точки и их слежение, RANSAC, PnP)
 # + SciPy (bundle adjustment — совместная оптимизация камеры и 3D-точек).
 # Отдельное окружение ~/sfx/.venv-track — основная программа не тяжелеет. Загрузка ~120 МБ.

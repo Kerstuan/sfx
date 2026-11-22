@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 # Регрессии 2026-11-19: падение при вводе числа в «Эффектах слоя», Motion Tile по границам слоя,
 # Shift+клик — диапазон слоёв, рабочая область (двойной клик = вся композиция, B/N с отменой).
 import os, sys

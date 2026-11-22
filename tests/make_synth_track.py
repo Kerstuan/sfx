@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 import cv2, numpy as np, json, math, sys
 W, H, F, N = 1280, 720, 900.0, 150
 K = np.array([[F, 0, W / 2], [0, F, H / 2], [0, 0, 1]])

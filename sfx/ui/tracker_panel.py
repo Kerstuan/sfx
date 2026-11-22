@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Окно 3D-трекера камеры (Инструменты → 3D-трекер камеры, Ctrl+Alt+Shift+K).
 
 Анализ — отдельный процесс (.venv-track, track_worker.py: OpenCV + SciPy). Здесь: кадр с точками

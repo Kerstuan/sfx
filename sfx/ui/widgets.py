@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Общие виджеты в духе AE: протягиваемые числа, секундомер, сворачиваемые секции, индикатор звука, кривая EQ."""
 from __future__ import annotations
 

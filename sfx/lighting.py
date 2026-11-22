@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Kerstuan. All rights reserved.
+# Copyright (c) 2026 Kerstuan. Licensed under the MIT License (see LICENSE).
 """Свет, тени, материалы и глубина резкости для 3D-слоёв — как в After Effects (Classic 3D).
 
 3D-слой — плоскость. Для каждого пикселя слоя на кадре находим его точку в мире (обратная гомография),
