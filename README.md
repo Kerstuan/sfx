@@ -74,7 +74,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/<user>/sfx.git
+git clone https://github.com/Kerstuan/sfx.git
 cd sfx
 ./run.sh            # при первом запуске создаст .venv и поставит зависимости из requirements.txt
 ```

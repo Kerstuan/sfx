@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Kerstuan. All rights reserved.
 """Пример плагина SFX: эффект «Строки развёртки» и оператор фигуры «Волна».
 Скопируй файл в ~/.config/sfx/plugins/ и перезапусти программу."""
 import math

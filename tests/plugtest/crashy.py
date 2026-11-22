@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Kerstuan. All rights reserved.
 PLUGIN = {"id": "crashy", "name": "Crashy", "version": "0.1", "api": 1}
 def boom(arr, v, **_):
     raise RuntimeError("плагин упал")
