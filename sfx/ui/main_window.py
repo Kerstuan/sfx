@@ -494,6 +494,8 @@ class MainWindow(QMainWindow):
             return {}
 
     def _layout_state(self) -> dict:
+        if getattr(self, "_maxed", None):   # развёрнутая ` панель — временно, сохранять раскладку без неё
+            self.toggle_maximize_panel()
         return {"main": self.main_split.sizes(), "top": self.top.sizes(),
                 "left": self.left_tabs.isVisible(), "right": self.right.isVisible(),
                 "sections": {k: sec.head.isChecked() for k, sec in self.sections.items()},

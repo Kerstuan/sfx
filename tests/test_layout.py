@@ -26,5 +26,12 @@ for k in ("swap", "ec", "right", "tl_top", "left", "tab"):
     assert before[k] == after[k], k
 assert abs(after["main"][0] - before["main"][0]) <= 2, (before["main"], after["main"])
 assert w2.size() == size; assert all(abs(a-b)<=3 for a,b in zip(before["top"], after["top"])), "top"
+# ` (развернуть панель) перед закрытием не должна запоминаться — иначе Проект пропадает навсегда
+w2._maxed = None; w2.left_tabs.show(); w2.toggle_maximize_panel(); app.processEvents()
+assert not w2.left_tabs.isVisible(), "` должна прятать боковые панели"
+w2.save_last_layout(); w2.ed._dirty = False; w2.close(); app.processEvents()
+w3 = MainWindow(Editor()); w3.show(); w3.restore_last_layout(); app.processEvents(); app.processEvents()
+assert w3.left_tabs.isVisible(), "после ` и перезапуска панель Проект пропала"
+assert w3.top.sizes()[w3.top.indexOf(w3.left_tabs)] > 50, ("Проект ужат в 0", w3.top.sizes())
 print("OK layout")
 sys.stdout.flush(); os._exit(0)   # без flush вывод в pipe (run_all.sh) теряется

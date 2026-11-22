@@ -119,7 +119,8 @@ class ProxyManager(QObject):
         src, w, h, dur = self.current = self.queue.pop(0)
         os.makedirs(proxy_dir(), exist_ok=True)
         dst = proxy_path(src)
-        self._tmp = dst[:-4] + ".part.mp4"
+        # своё имя на каждый менеджер: два ffmpeg в один .part давали «готовый» прокси без moov
+        self._tmp = f"{dst[:-4]}.{os.getpid()}-{id(self):x}.part.mp4"
         self._enc = enc or encoder()
         self.proc = QProcess(self)
         cmd = build_cmd(src, self._tmp, w, h, self._enc)
