@@ -19,6 +19,7 @@ from PySide6.QtWidgets import (QCheckBox, QHBoxLayout, QLabel, QProgressBar, QPu
                                QVBoxLayout, QWidget)
 
 from ..i18n import tr
+from .installer import offer_install
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PY = os.path.join(ROOT, ".venv-roto", "bin", "python")
@@ -204,8 +205,7 @@ class RotoPanel(QWidget):
         self._set_enabled(False)
         editor.time_changed.connect(self._follow_time)
         if not roto_available():
-            self.btn_start.setEnabled(False)
-            self.status.setText(tr("Нейросеть не установлена: запустите ~/sfx/install_roto.sh"))
+            self.status.setText(tr("Нейросеть не установлена: нажмите «Начать», чтобы скачать и установить её."))
 
     # ------------------------------------------------------------------ процесс модели
     def _ensure_proc(self):
@@ -294,6 +294,9 @@ class RotoPanel(QWidget):
 
     # ------------------------------------------------------------------ сессия
     def start(self):
+        if not roto_available():
+            offer_install(self, "install_roto.sh", "~3 GB", self.btn_start, self.status, roto_available, self.start)
+            return
         layer = self.ed.current()
         if layer is None or layer.kind != "video":
             self.status.setText(tr("Выберите видеослой на таймлайне."))

@@ -4,7 +4,7 @@
 cd "$(dirname "$(readlink -f "$0")")/.."
 mkdir -p /tmp/sfx-tests
 fail=0
-for t in test_flow test_bugs test_cache test_key test_filters test_idle test_three test_batch2 test_ui3 test_ec test_shapes test_plugins test_sapph2 test_transitions test_time test_menus test_layout test_regress_1119 test_freeze test_markers_slip test_lights test_ripple test_gizmo test_views test_regress_1120 test_regress_1122 test_fx_audit test_params test_proxy_race; do
+for t in test_flow test_bugs test_cache test_key test_filters test_idle test_three test_batch2 test_ui3 test_ec test_shapes test_plugins test_sapph2 test_transitions test_time test_menus test_layout test_regress_1119 test_freeze test_markers_slip test_lights test_ripple test_gizmo test_views test_regress_1120 test_regress_1122 test_fx_audit test_params test_proxy_race test_installer; do
   for L in ru en; do
     r=$(XDG_CONFIG_HOME=$(mktemp -d) .venv/bin/python tests/$t.py $L 2>&1 | grep -E "^(ALL )?OK" | tail -1)
     echo "$t $L: ${r:-FAIL}"; [ -z "$r" ] && fail=1

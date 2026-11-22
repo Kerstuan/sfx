@@ -19,6 +19,7 @@ from PySide6.QtWidgets import (QComboBox, QDoubleSpinBox, QFileDialog, QHBoxLayo
                                QPushButton, QSlider, QSplitter, QVBoxLayout, QWidget)
 
 from ..i18n import LANG, tr
+from .installer import offer_install
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PY = os.path.join(ROOT, ".venv-track", "bin", "python")
@@ -290,8 +291,7 @@ class TrackerPanel(QWidget):
         self._enable()
         editor.time_changed.connect(self._follow_time)
         if not tracker_available():
-            self.btn_run.setEnabled(False)
-            self.info.setText(tr("Движок трекера не установлен: запустите ~/sfx/install_tracker.sh"))
+            self.info.setText(tr("Движок трекера не установлен: нажмите «Анализ», чтобы скачать и установить его."))
 
     def _enable(self):
         has = self.sol is not None
@@ -301,6 +301,9 @@ class TrackerPanel(QWidget):
 
     # ------------------------------------------------------------------ анализ
     def run(self):
+        if not tracker_available():
+            offer_install(self, "install_tracker.sh", "~120 MB", self.btn_run, self.info, tracker_available, self.run)
+            return
         layer = self.ed.current()
         if layer is None or layer.kind != "video":
             self.info.setText(tr("Выберите видеослой на таймлайне."))
