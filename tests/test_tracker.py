@@ -16,7 +16,8 @@ assert tracker_available()
 T = "/tmp/sfx-tests"; os.makedirs(T, exist_ok=True)
 vid, gt = f"{T}/synth_track.mp4", f"{T}/synth_track_gt.json"
 if not os.path.exists(vid):
-    subprocess.run([os.path.expanduser("~/sfx/.venv-track/bin/python"), os.path.expanduser("~/sfx/tests/make_synth_track.py"), vid, gt], check=True)
+    R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    subprocess.run([f"{R}/.venv-track/bin/python", f"{R}/tests/make_synth_track.py", vid, gt], check=True)
 def wait(cond, sec=900):
     t = time.time()
     while not cond():
