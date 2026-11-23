@@ -152,6 +152,26 @@ tests/run_all.sh
 Проект открыт для сообщества: делайте Fork, исправляйте баги, добавляйте функции и присылайте Pull Request.
 Перед отправкой прогоните тесты (`tests/run_all.sh`).
 
+## ☕ Поддержать автора / Support the author
+
+Привет! Меня зовут **Kerstuan**, и SFX я делаю один, в свободное время, с большой любовью к монтажу и моушн-дизайну.
+Проект бесплатный и останется таким. Если SFX сэкономил тебе время, помог сделать крутой эдит или просто понравился,
+можешь поддержать меня небольшим донатом. Это помогает развивать проект и добавлять новые функции.
+
+*Hi! I'm **Kerstuan**, and I build SFX on my own, in my free time, out of a love for editing and motion design.
+SFX is free and always will be. If it saved you time, helped you make an awesome edit, or you simply enjoy it,
+you can support me with a small donation. It helps keep the project growing and new features coming.*
+
+**TRON (TRC20):**
+```
+TUTPteCshhfb7wdnzaDmuEkRfXt5k8h4tD
+```
+⚠️ Отправляй только через сеть **TRON (TRC20)**, иначе средства могут потеряться. /
+*Please send only via the **TRON (TRC20)** network, or the funds may be lost.*
+
+Не можешь задонатить? Ничего страшного! Звёздочка ⭐ на GitHub, отзыв или рассказ другу тоже очень помогают. Спасибо, что ты здесь 💙
+*Can't donate? No worries at all! A ⭐ on GitHub, some feedback, or telling a friend helps a lot too. Thanks for being here 💙*
+
 ## Credits
 
 - **Kerstuan** — первоначальный автор и разработчик SFX.
